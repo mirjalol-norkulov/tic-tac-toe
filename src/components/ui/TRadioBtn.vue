@@ -12,7 +12,11 @@
       class="hidden"
       :id="inputId"
     />
-    <label :for="inputId" class="t-radio-btn__label">
+    <label
+      :for="inputId"
+      class="t-radio-btn__label"
+      v-hammer:tap="(e) => $emit('click', e)"
+    >
       <slot />
     </label>
   </div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="w-96 pt-96 relative">
+  <div class="w-full pt-full relative">
     <div class="absolute inset-0">
       <t-header @restart="handleRestart" />
       <board class="relative">
@@ -21,7 +21,7 @@
             v-for="(cellValue, j) in row"
             :key="`${i}-${j}`"
             :value="cellValue"
-            @click="handleCellClick(i, j)"
+            v-hammer:tap="() => handleCellClick(i, j)"
           />
         </template>
       </board>

@@ -1,5 +1,5 @@
 <template>
-  <div class="w-96 pt-96 relative flex items-center justify-center">
+  <div class="w-full pt-full relative flex items-center justify-center">
     <div class="absolute inset-0">
       <t-header @restart="handleRestart" />
       <board class="relative">

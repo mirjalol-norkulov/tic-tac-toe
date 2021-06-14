@@ -26,7 +26,7 @@
     <t-button
       class="mt-4"
       :disabled="continueBtnDisabled"
-      @click="handleContinueClick"
+      v-hammer:tap="handleContinueClick"
     >
       Continue
     </t-button>

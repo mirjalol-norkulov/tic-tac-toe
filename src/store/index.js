@@ -8,6 +8,7 @@ import { CELL_VALUE } from "@/constants";
 Vue.use(Vuex);
 
 const dataState = createPersistedState({
+  key: "ticTacToe",
   paths: [
     "side",
     "mode",

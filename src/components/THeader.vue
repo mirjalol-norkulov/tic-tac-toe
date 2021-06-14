@@ -10,10 +10,10 @@
       <span class="mx-1">{{ isTwoPlayerMode ? player2Name : "AI" }}</span>
     </div>
     <div>
-      <t-button variant="text" @click="$emit('restart')">
+      <t-button variant="text" v-hammer:tap="() => $emit('restart')">
         <restart-icon />
       </t-button>
-      <t-button variant="text" @click="handleMainMenu">
+      <t-button variant="text" v-hammer:tap="handleMainMenu">
         <menu-icon />
       </t-button>
     </div>

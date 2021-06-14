@@ -5,6 +5,9 @@ import router from "./router";
 import store from "./store";
 
 import "tailwindcss/tailwind.css";
+import "@/assets/scss/global.scss";
+
+import "@/plugins/vue2-hammer";
 
 Vue.config.productionTip = false;
 
