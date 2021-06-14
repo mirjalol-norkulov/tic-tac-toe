@@ -3,7 +3,7 @@
     <h1 class="font-bold text-lg text-center">Pick your side</h1>
     <div class="grid grid-cols-2 gap-x-10 mt-10">
       <div class="flex flex-col items-center">
-        <x-icon class="w-24 h-24" />
+        <x-icon class="w-20 h-20" />
         <t-radio-btn
           class="mt-12"
           name="side"
@@ -12,7 +12,7 @@
         />
       </div>
       <div class="flex flex-col items-center">
-        <o-icon class="w-24 h-24" />
+        <o-icon class="w-20 h-20" />
         <t-radio-btn
           class="mt-12"
           name="side"

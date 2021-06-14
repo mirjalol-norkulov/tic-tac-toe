@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col items-center">
     <tic-tac-toe-icon class="w-28" />
-    <h1 class="font-bold my-4">Choose your play mode</h1>
+    <h1 class="text-lg font-bold my-4">Choose your play mode</h1>
     <div>
       <t-radio-btn
         name="mode"

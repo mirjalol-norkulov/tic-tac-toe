@@ -10,7 +10,7 @@ Vue.use(Vuex);
 const dataState = createPersistedState({
   key: "ticTacToe",
   paths: [
-    "side",
+    "playerSide",
     "mode",
     "player1Name",
     "player2Name",
